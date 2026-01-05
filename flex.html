@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation: simple navbar and internal navigation among fieldset</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .container div{
+        border: 2px solid firebrick;
+        height: 100px;
+        width: 50px;
+        font-size: 4em;
+    }
+    .box{
+        border: 2px solid purple;
+        font-size: 2em;
+        height: 50px;
+        width: 50px;
+    }
+    .box-container{
+        display: flex;
+    }
+    .user-container{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .user{
+        border: 3px solid aqua;
+        height: 150px;
+        width: 150px;
+        background-color: rgb(5, 132, 218);
+    }
+    .card-container{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+<body>
+    
+    <header>
+        <div class="container">
+            <div>1</div>
+            <div>2 </div>
+            <div>3</div>
+            <div>1</div>
+            <div>1</div>
+
+        </div>
+        <div class="box-container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <div class="user-container">
+            <!-- .user{user-$} -->
+             <div class="user">user-1</div>
+             <div class="user">user-2</div>
+             <div class="user">user-3</div>
+        </div>
+        <div class="card-container">
+            <div class="user">user-1</div>
+            <div class="user">user-2</div>
+            <div class="user">user-3</div>
+            <div class="user">user-4</div>
+            <div class="user">user-5</div>
+            <div class="user">user-6</div>
+            <div class="user">user-7</div>
+            <div class="user">user-8</div>
+            <div class="user">user-9</div>
+            <div class="user">user-10</div>
+            
+        </div>
+    </header>
+    <main>
+
+    </main>
+</body>
+</html>
