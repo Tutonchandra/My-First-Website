@@ -1,0 +1,20 @@
+*h1{
+    font-size: 45px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+nav li:hover{
+    background-color: peru;
+}
+nav li a{
+    text-decoration: none;
+}
+/* footer section css */
+footer{
+    text-align: center;
+
+}
+/* footer section css close */
